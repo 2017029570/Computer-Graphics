@@ -7,7 +7,7 @@ A = np.array([[1.0,0.,0.],
               [0.,0.,1.0]])
 
 def render(T):
-    print(T)
+    
     glClear(GL_COLOR_BUFFER_BIT)
     glLoadIdentity()
 
