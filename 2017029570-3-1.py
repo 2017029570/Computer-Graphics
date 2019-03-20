@@ -34,7 +34,7 @@ def render(T):
 def main():
     if not glfw.init():
         return
-    window = glfw.create_window(640,640,"2D Trans", None,None)
+    window = glfw.create_window(480,480,"2D Trans", None,None)
     if not window:
         glfw.terminate()
         return
