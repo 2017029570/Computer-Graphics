@@ -287,7 +287,7 @@ def main():
 
     if not glfw.init():
         return
-    window = glfw.create_window(640,640,'Lecture13', None,None)
+    window = glfw.create_window(480,480,'2017029570-9-1', None,None)
     if not window:
         glfw.terminate()
         return
